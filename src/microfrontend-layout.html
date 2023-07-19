@@ -18,10 +18,13 @@
   -->
 
   <main>
+    <application name="@amf/mf-header"></application>
     <route default>
-      <application name="@amf/mf-header"></application>
       <application name="@amf/mf-content"></application>
-      <application name="@amf/mf-footer"></application>
     </route>
+    <route path="profile">
+      <application name="@amf/mf-profile"></application>
+    </route>
+    <application name="@amf/mf-footer"></application>
   </main>
 </single-spa-router>
