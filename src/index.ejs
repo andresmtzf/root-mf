@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Root Config</title>
-
+  
   <!--
     Remove this if you only support browsers that support async/await.
     This is needed by babel to share largeish helper code for compiling async/await in older
@@ -52,7 +52,8 @@
         "@amf/root-config": "//localhost:9000/amf-root-config.js",
         "@amf/mf-header": "//localhost:8080/amf-mf-header.js",
         "@amf/mf-content": "//localhost:8081/amf-mf-content.js",
-        "@amf/mf-footer": "//localhost:8082/amf-mf-footer.js"
+        "@amf/mf-footer": "//localhost:8082/amf-mf-footer.js",
+        "@amf/mf-profile": "//localhost:8083/amf-mf-profile.js"
       }
     }
   </script>
@@ -73,6 +74,17 @@
   <script src="https://cdn.jsdelivr.net/npm/systemjs@6.8.3/dist/extras/amd.min.js"></script>
   <% } %>
 
+  <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 </head>
 <body>
   <noscript>
